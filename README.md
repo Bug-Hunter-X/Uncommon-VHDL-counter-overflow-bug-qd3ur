@@ -1,0 +1,3 @@
+# Uncommon VHDL Counter Overflow Bug
+
+This repository demonstrates a subtle overflow bug in a VHDL counter. The `buggy_counter.vhdl` file contains the buggy code, while `fixed_counter.vhdl` provides a corrected version.  The bug is subtle because it only becomes apparent after the counter reaches its maximum value (15 in this case).  Standard simulation might not reveal the error immediately if the simulation duration is short.
